@@ -1,0 +1,20 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "main": "src/_index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "jsdom": "^26.0.0",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": "https://github.com/Chellsi/fullstack_hw18.git",
+  "author": "Alex.Sarnavskiy <33147441+Chellsi@users.noreply.github.com>"
+}
